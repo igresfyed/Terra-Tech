@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TERRA Technologies - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="TERRA Logo" style="height:48px;width:auto;">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="solutions.html">Solutions</a></li>
+                <li><a href="case-studies.html">Case Studies</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Get in Touch</h1>
+            <p>We're here to help with all your technology needs. Let's start a conversation today!</p>
+            <a href="#contact-us" class="cta-button">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Center Contact Box -->
+    <section class="center-contact-box" id="contact-us">
+        <div class="container">
+            <div class="contact-box">
+                <div class="contact-box-header">
+                    <h2>Quick Contact</h2>
+                    <p>Get in touch with us using any of these methods:</p>
+                </div>
+                <div class="contact-methods">
+                    <div class="method-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>info@terra.com</p>
+                        <p>support@terra.com</p>
+                    </div>
+                    <div class="method-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>+20 1552808075</p>
+                    </div>
+                    <div class="method-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Hours</h3>
+                        <p>Saturday - Wednesday: 9:00 AM - 8:00 PM</p>
+                        <p>Thursday: 10:00 AM - 4:00 PM</p>
+                        <p>Friday: Closed</p>
+                    </div>
+                    <div class="method-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>123 Tech Street</p>
+                        <p>Silicon Valley, CA</p>
+                    </div>
+                </div>
+                <div class="contact-actions">
+                    <a href="tel:+201552808075" class="btn btn-primary">
+                        <i class="fas fa-phone"></i> Call Now
+                    </a>
+                    <a href="mailto:info@terra.com" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i> Send Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Office Locations -->
+    <section class="office-locations">
+        <div class="container">
+            <h2 class="section-title">Our Office</h2>
+            <div class="locations-grid">
+                <div class="location-card">
+                    <h3>Virtual Office</h3>
+                    <p><i class="fas fa-map-marker-alt" style="margin-right: 20px;"></i> Virtual Office</p>
+                    <p><i class="fas fa-phone" style="margin-right: 20px;"></i> +20 1552808075</p>
+                    <p><i class="fas fa-map-pin" style="margin-right: 20px;"></i> ZIP: 31733</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact-form" class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form animate-on-scroll">
+                    <h2>Send Us a Message</h2>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company" placeholder="Your company name">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select Subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="sales">Sales & Pricing</option>
+                                <option value="support">Technical Support</option>
+                                <option value="partnership">Partnership Inquiry</option>
+                                <option value="career">Career Opportunities</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" placeholder="How can we assist you today?" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <div class="checkbox">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <label for="newsletter">Subscribe to our newsletter</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info animate-on-scroll">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Headquarters</h4>
+                        <p>Virtual Office</p>
+                        <p>ZIP: 31733</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h4>Phone</h4>
+                        <p>General: +20 1552808075</p>
+                        <p>Sales: +20 1552808075</p>
+                        <p>Support: +20 1552808075</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>General: info@terra.com</p>
+                        <p>Sales: sales@terra.com</p>
+                        <p>Support: support@terra.com</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h4>Working Hours</h4>
+                        <p>Saturday - Wednesday: 9:00 AM - 8:00 PM</p>
+                        <p>Thursday: 10:00 AM - 4:00 PM</p>
+                        <p>Friday: Closed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Contact Options -->
+    <section class="quick-contact">
+        <div class="container">
+            <h2 class="section-title">Quick Contact Options</h2>
+            <div class="quick-options">
+                <div class="option-card">
+                    <i class="fas fa-life-ring"></i>
+                    <h3>Need Support?</h3>
+                    <p>Get immediate assistance from our support team</p>
+                    <a href="mailto:support@terra.com" class="btn btn-outline">Contact Support</a>
+                </div>
+                <div class="option-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Request Demo</h3>
+                    <p>Schedule a personalized demo of our solutions</p>
+                    <a href="#" class="btn btn-outline">Schedule Demo</a>
+                </div>
+                <div class="option-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Partner With Us</h3>
+                    <p>Explore partnership opportunities with TERRA</p>
+                    <a href="#" class="btn btn-outline">Partner Inquiry</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>TERRA</h4>
+                    <p>Transforming businesses through cutting-edge technology solutions.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="solutions.html">Solutions</a></li>
+                        <li><a href="case-studies.html">Case Studies</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Virtual Office</li>
+                        <li><i class="fas fa-phone"></i> +20 1552808075</li>
+                        <li><i class="fas fa-envelope"></i> info@terra.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TERRA Technologies. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
