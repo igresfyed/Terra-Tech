@@ -620,10 +620,12 @@ input.error {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    height: 100px;
-    padding: 0.3rem 0;
+    height: auto;
+    padding: 0; 
+    margin: 0;
     position: relative;
     z-index: 3;
+    background: transparent;
 }
 
 .logo a {
@@ -634,21 +636,17 @@ input.error {
 }
 
 .logo img {
-    height: 100px;
+    height: 160px; 
     width: auto;
     display: block;
-    border-radius: 10px;
-    background: none;
+    border-radius: 0; 
     padding: 0;
     box-shadow: none;
     transition: all 0.3s ease;
-    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+    filter: none; 
+    margin: 0; 
 }
 
-.logo:hover img {
-    transform: scale(1.05);
-    filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15));
-}
 
 .nav-links {
     display: flex;
