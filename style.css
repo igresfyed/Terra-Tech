@@ -620,10 +620,10 @@ input.error {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    height: 60px;
-    padding: 0.5rem 0;
+    height: 100px;
+    padding: 0.3rem 0;
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 
 .logo a {
@@ -634,10 +634,10 @@ input.error {
 }
 
 .logo img {
-    height: 50px;
+    height: 100px;
     width: auto;
     display: block;
-    border-radius: 8px;
+    border-radius: 10px;
     background: none;
     padding: 0;
     box-shadow: none;
